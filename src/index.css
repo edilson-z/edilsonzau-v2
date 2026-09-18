@@ -9,5 +9,9 @@ body {
 }
 
 .shell {
-  margin: 20px 200px;
+  margin: 20px 20vw;
+}
+
+.header {
+  max-width: 40vw;
 }
