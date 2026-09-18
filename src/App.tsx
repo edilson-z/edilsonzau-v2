@@ -3,8 +3,10 @@ import './App.css'
 function App() {
 
   return (
-    <div>
-      Edilson Zau Portfolio
+    <div className='shell'>
+      <div className='header'>
+        Edilson Zau Portfolio
+      </div>
     </div>
   )
 }
