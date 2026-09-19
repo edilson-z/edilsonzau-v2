@@ -1,11 +1,15 @@
 :root {
   --main: #d20f39;
   --bg: #eff1f5;
-
+  --text: #4c4f69
 }
 
 body {
   background: var(--bg);
+}
+
+p {
+  color: var(--text);
 }
 
 .shell {
@@ -13,5 +17,13 @@ body {
 }
 
 .header {
-  max-width: 40vw;
+  max-width: 30vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header span {
+  color: var(--main)
 }
