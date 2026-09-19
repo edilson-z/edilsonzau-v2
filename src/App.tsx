@@ -1,4 +1,5 @@
 import ClockWidget from './components/clockWidget'
+import MapWidget from './components/mapWidget'
 import Weather from './components/weather'
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
       <div className="cards">
         <Weather />
         <ClockWidget />
-        <Weather />
+        <MapWidget />
         <ClockWidget />
       </div>
     </div>

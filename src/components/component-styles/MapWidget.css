@@ -1,0 +1,78 @@
+.cm {
+  box-sizing: border-box;
+  width: 240px;
+  max-width: 100%;
+  border: 1px solid var(--text);
+  border-radius: 8px;
+  background: var(--bg);
+  color: #222;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cm__label,
+.cm__coords {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+/* ---------- The map ---------- */
+
+.cm .cm__map {
+  height: 160px;
+  border-radius: 8px;
+  background: #ece8df;
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+}
+
+.cm .cm__map:focus-visible {
+  outline: 2px solid #222;
+  outline-offset: 2px;
+}
+
+/* Soften the map colours so they sit better on the cream card */
+.cm .cm__map .leaflet-tile-pane {
+  filter: grayscale(0.35) sepia(0.12);
+}
+
+/* Zoom buttons */
+.cm .cm__map .leaflet-bar {
+  border: 1px solid var(--text);
+  border-radius: 8px;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.cm .cm__map .leaflet-bar a {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  border-bottom: 1px solid var(--text);
+  background: #f7f5f0;
+  color: var(--main);
+}
+
+.cm .cm__map .leaflet-bar a:last-child {
+  border-bottom: 0;
+}
+
+.cm .cm__map .leaflet-bar a:hover {
+  background: #ece8df;
+}
+
+/* Attribution (required by OpenStreetMap, so keep it visible) */
+.cm .cm__map .leaflet-control-attribution {
+  background: rgba(247, 245, 240, 0.85);
+  color: var(--text);
+  font-size: 10px;
+}
+
+.cm .cm__map .leaflet-control-attribution a {
+  color: var(--text);
+}
