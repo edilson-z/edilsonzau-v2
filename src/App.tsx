@@ -1,4 +1,4 @@
-import './App.css'
+import Weather from './components/weather'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
         <p>I'm a <span>software developer</span> with more than five years of experience building websites, apps, and data systems. I'm currently <span>freelancing</span> in <span>Luanda, Angola</span>. I don't know what to put as the closing statement yet.</p>
 
         <div className="hero-actions">
-          <a href="mailto:zauedilson@gmail.com" className="button primary">Let's Chat!</a>
+          <a href="https://cal.com/edilson-zau/15min" className="button primary" target='_blank'>Let's Chat!</a>
           <a className="button secondary" href="#about">View More</a>
           <a className="hero-icon" href="https://github.com/edilson-z" target="_blank"
           >
@@ -35,6 +35,28 @@ function App() {
           <img src='./src/assets/tololi-logo.png' className='exp-img' />
         </div>
       </div> */}
+
+      <div className="cards">
+        <Weather />
+        <Weather />
+        <Weather />
+        <Weather />
+
+        {/* <div className="card">
+          <h3>Time</h3>
+          <p> I collection through non-traditional
+            ways.</p>
+        </div>
+
+        <div className="card">
+          <h3>Map</h3>
+          <p>I've designed, developed, and de</p>
+        </div>
+        <div className="card">
+          <h3>Cross word</h3>
+          <p> AI applications.</p>
+        </div> */}
+      </div>
     </div>
   )
 }
