@@ -56,7 +56,7 @@ export default function ClockWidget({ timeZone = "Africa/Luanda", label, hour12 
 
   return (
     <section className="cw" aria-label={`Current time in ${title}`}>
-      <h2 className="cw__label">UTC +01:00</h2>
+      <h2 className="cw__label">Local Time</h2>
 
       <p className="cw__time">
         <span aria-hidden="true">
