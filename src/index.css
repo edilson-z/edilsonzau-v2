@@ -9,11 +9,14 @@
 body {
   background: var(--bg);
   font-family: 'Courier New', Courier, monospace;
-  line-height: 1.65;
 }
 
 p {
   color: var(--text);
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.65;
+
 }
 
 .shell {
