@@ -1,4 +1,3 @@
-import './App.css'
 import Weather from './components/weather'
 
 function App() {
@@ -39,20 +38,24 @@ function App() {
 
       <div className="cards">
         <Weather />
-        <div className="card">
+        <Weather />
+        <Weather />
+        <Weather />
+
+        {/* <div className="card">
           <h3>Time</h3>
-          <p> I've published reviewed research on automated data collection through non-traditional
+          <p> I collection through non-traditional
             ways.</p>
         </div>
 
         <div className="card">
           <h3>Map</h3>
-          <p>I've designed, developed, and deployed more than fifteen real-world projects.</p>
+          <p>I've designed, developed, and de</p>
         </div>
         <div className="card">
           <h3>Cross word</h3>
-          <p>I've led a team of 4 design, develop, and deploy web, moblie and AI applications.</p>
-        </div>
+          <p> AI applications.</p>
+        </div> */}
       </div>
     </div>
   )

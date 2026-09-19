@@ -101,14 +101,14 @@ a {
 }
 
 .card {
-    min-height: 214px;
+    /* min-height: 214px; */
     padding: 22px;
     position: relative;
     overflow: hidden;
-    border-radius: var(--radius);
     background-color: var(--bg);
     /* border: 1px solid #a2ffdf1f; */
     border: 1px solid var(--text);
+    border-radius: 8px;
 }
 
 .card-topline {
