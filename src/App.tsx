@@ -9,7 +9,7 @@ function App() {
         <p>I'm a <span>software developer</span> with more than five years of experience building websites, apps, and data systems. I'm currently <span>freelancing</span> in <span>Luanda, Angola</span>. I don't know what to put as the closing statement yet.</p>
 
         <div className="hero-actions">
-          <a href="mailto:zauedilson@gmail.com" className="button primary">Let's Chat!</a>
+          <a href="https://cal.com/edilson-zau/15min" className="button primary" target='_blank'>Let's Chat!</a>
           <a className="button secondary" href="#about">View More</a>
           <a className="hero-icon" href="https://github.com/edilson-z" target="_blank"
           >
