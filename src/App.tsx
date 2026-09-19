@@ -48,7 +48,10 @@ function App() {
         <Weather />
         <ClockWidget />
         <MapWidget />
-        <ClockWidget />
+        <div className='card'>
+          <h3>New Cool Widget</h3>
+          <p>Coming Soon</p>
+        </div>
       </div>
     </div>
   )
