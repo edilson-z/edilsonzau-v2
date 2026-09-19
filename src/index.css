@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   --main: #d20f39;
   --bg: #eff1f5;
@@ -6,6 +8,8 @@
 
 body {
   background: var(--bg);
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.65;
 }
 
 p {
