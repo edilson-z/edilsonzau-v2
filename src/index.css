@@ -37,3 +37,12 @@ p {
 .header span {
   color: var(--main)
 }
+
+.exp-container {
+  display: flex;
+  gap: 5px;
+}
+.exp-img {
+  width: 50px;
+  height: 50px;
+}
