@@ -1,4 +1,5 @@
 import './App.css'
+import Weather from './components/weather'
 
 function App() {
 
@@ -37,11 +38,7 @@ function App() {
       </div> */}
 
       <div className="cards">
-        <div className="card">
-          <h3>Weather</h3>
-          <p>I have more than 5 years of experience building digital solutions that users love.
-          </p>
-        </div>
+        <Weather />
         <div className="card">
           <h3>Time</h3>
           <p> I've published reviewed research on automated data collection through non-traditional
