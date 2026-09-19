@@ -1,5 +1,5 @@
 import { useEffect, useState, type ReactNode } from "react";
-import "./WeatherWidget.css";
+import "./component-styles/WeatherWidget.css";
 
 // Vite. For Create React App use process.env.REACT_APP_WEATHER_API_KEY,
 // for Next.js use process.env.NEXT_PUBLIC_WEATHER_API_KEY.
