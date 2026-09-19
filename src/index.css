@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   --main: #d20f39;
   --bg: #eff1f5;
-
+  --text: #4c4f69
 }
 
 body {
   background: var(--bg);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  color: var(--text);
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.65;
+}
+
+a {
+  text-decoration: none;
 }
 
 .shell {
@@ -13,5 +31,64 @@ body {
 }
 
 .header {
-  max-width: 40vw;
+  max-width: 30vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header span {
+  color: var(--main)
+}
+
+.hero-actions {
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+  display: flex
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  padding: 0 20px;
+  font-weight: 850;
+  line-height: 1;
+  display: inline-flex
+}
+
+.primary {
+  background: var(--main);
+  color: var(--bg);
+}
+
+.secondary {
+  color: var(--text);
+}
+
+.secondary:hover {
+  color: var(--main)
+}
+
+.hero-icon {
+  width: 40px;
+  margin: 0 5px;
+}
+
+.hero-icon:hover path {
+  fill: var(--main)
+}
+
+.exp-container {
+  display: flex;
+  gap: 5px;
+}
+
+.exp-img {
+  width: 50px;
+  height: 50px;
 }
