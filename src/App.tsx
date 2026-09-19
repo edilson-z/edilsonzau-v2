@@ -41,22 +41,7 @@ function App() {
         <Weather />
         <ClockWidget />
         <Weather />
-        <Weather />
-
-        {/* <div className="card">
-          <h3>Time</h3>
-          <p> I collection through non-traditional
-            ways.</p>
-        </div>
-
-        <div className="card">
-          <h3>Map</h3>
-          <p>I've designed, developed, and de</p>
-        </div>
-        <div className="card">
-          <h3>Cross word</h3>
-          <p> AI applications.</p>
-        </div> */}
+        <ClockWidget />
       </div>
     </div>
   )
