@@ -35,6 +35,28 @@ function App() {
           <img src='./src/assets/tololi-logo.png' className='exp-img' />
         </div>
       </div> */}
+
+      <div className="cards">
+        <div className="card">
+          <h3>Weather</h3>
+          <p>I have more than 5 years of experience building digital solutions that users love.
+          </p>
+        </div>
+        <div className="card">
+          <h3>Time</h3>
+          <p> I've published reviewed research on automated data collection through non-traditional
+            ways.</p>
+        </div>
+
+        <div className="card">
+          <h3>Map</h3>
+          <p>I've designed, developed, and deployed more than fifteen real-world projects.</p>
+        </div>
+        <div className="card">
+          <h3>Cross word</h3>
+          <p>I've led a team of 4 design, develop, and deploy web, moblie and AI applications.</p>
+        </div>
+      </div>
     </div>
   )
 }
