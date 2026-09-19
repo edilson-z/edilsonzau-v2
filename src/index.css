@@ -79,6 +79,10 @@ a {
   margin: 0 5px;
 }
 
+.hero-icon:hover path {
+  fill: var(--main)
+}
+
 .exp-container {
   display: flex;
   gap: 5px;
