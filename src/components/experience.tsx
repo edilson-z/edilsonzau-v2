@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './component-styles/Accordion.css'
+import './component-styles/Experience.css'
 
 type AccordionItem = {
     id: string;
