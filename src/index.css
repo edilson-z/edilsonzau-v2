@@ -6,6 +6,20 @@
   --text: #4c4f69
 }
 
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main);
+  border-radius: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: var(--main) transparent;
+}
+
 body {
   background: var(--bg);
   font-family: 'Courier New', Courier, monospace;
@@ -13,6 +27,10 @@ body {
 
 h1 {
   margin: 0;
+}
+
+h2 {
+  margin-top: 50px;
 }
 
 p {
@@ -32,7 +50,8 @@ a {
 
 .header {
   max-width: 30vw;
-  height: 50vh;
+  /* height: 50vh; */
+  padding: 180px 0 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,30 +113,30 @@ a {
 }
 
 .cards {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 14px;
-    margin-top: 30px;
-    display: grid
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-top: 30px;
+  display: grid
 }
 
 .card {
-    /* min-height: 214px; */
-    padding: 22px;
-    position: relative;
-    overflow: hidden;
-    background-color: var(--bg);
-    /* border: 1px solid #a2ffdf1f; */
-    border: 1px solid var(--text);
-    border-radius: 8px;
+  /* min-height: 214px; */
+  padding: 22px;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--bg);
+  /* border: 1px solid #a2ffdf1f; */
+  border: 1px solid var(--text);
+  border-radius: 8px;
 }
 
 .card-topline {
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 28px;
-    display: flex
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+  display: flex
 }
 
 .card>.card-topline {
-    margin-bottom: 18px
+  margin-bottom: 18px
 }
