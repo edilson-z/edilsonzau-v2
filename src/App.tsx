@@ -1,4 +1,5 @@
 import ClockWidget from './components/clockWidget'
+import Experience from './components/experience'
 import MapWidget from './components/mapWidget'
 import Weather from './components/weather'
 
@@ -53,6 +54,8 @@ function App() {
           <p>Coming Soon</p>
         </div>
       </div>
+
+      <Experience />
     </div>
   )
 }
