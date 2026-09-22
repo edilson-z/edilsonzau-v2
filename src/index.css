@@ -35,7 +35,8 @@ a {
 
 .header {
   max-width: 30vw;
-  height: 50vh;
+  /* height: 50vh; */
+  padding: 180px 0 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
