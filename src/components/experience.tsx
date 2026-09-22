@@ -41,8 +41,35 @@ const items: AccordionItem[] = [
     {
         id: "3",
         title: "Tololi",
-        position: "Tech Lead",
-        content: <p>Tech Lead</p>,
+        position: "Head of Technology",
+        content:
+            <ul>
+                <li><p>Led a cross-functional team of four developers, delivering 5 major systems with a 100% on-time project completion rate</p></li>
+                <li><p>Architected and deployed web applications serving 1,000+ monthly users with 99.9% uptime, increasing customer retention</p></li>
+                <li><p>Engineered data pipelines that processed customer data monthly, enabling real-time analytics</p></li>
+            </ul>,
+    },
+    {
+        id: "4",
+        title: "Tololi",
+        position: "Junior IT Manager",
+        content:
+            <ul>
+                <li><p>Designed and developed a Multi-Vendor E-commerce Marketplace that onboarded 25+ local vendors in the first quarter</p></li>
+                <li><p>Successfully secured copyrights for 3 core innovations, strengthening the company's IP portfolio</p></li>
+                <li><p>Implemented SEO strategies that improved organic search rankings by 65% and increased web traffic by 40% within 4 months</p></li>
+                <li><p>Provided technical support with a 100% issue resolution rate, maintaining an average response time under an hour for 50+ clients</p></li>
+            </ul>,
+    },
+    {
+        id: "5",
+        title: "Akilli X",
+        position: "Software Developer",
+        content:
+            <ul>
+                <li><p>Delivered a responsive Mariental Municipality website used by 600+ citizens monthly</p></li>
+                <li><p>Contributed to 4 key projects with 100% on-time delivery</p></li>
+            </ul>,
     },
 ];
 
