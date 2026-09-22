@@ -82,6 +82,23 @@ const items: AccordionItem[] = [
     },
 ];
 
+const schoolItems: AccordionItem[] = [
+    {
+        id: "1",
+        title: "Namibia University of Science and Technology",
+        position: "B.Sc. Computer Science Honours (Software Development)",
+        content:
+            <div>
+                <p>Academic Achievements:</p>
+                <ul>
+                    <li><p>CUM LAUDE</p></li>
+                    <li><p>Best Honours Student 2024 Award</p></li>
+                    <li><p>Artificial Intelligence 2023 Excellence Award</p></li>
+                </ul>
+            </div>,
+    },
+];
+
 export function Accordion({
     items,
     allowMultiple = false,
@@ -151,9 +168,15 @@ export default function Experience() {
     return (
         <div>
             <div>
-                <h2>Work & Education</h2>
+                <h2 style={{ marginTop: 80 }}>Work Experience</h2>
                 <Accordion
                     items={items}
+                    allowMultiple={false}
+                />
+
+                <h2>Education</h2>
+                <Accordion
+                    items={schoolItems}
                     allowMultiple={false}
                 />
             </div>
