@@ -83,22 +83,29 @@ export function Accordion({
                             aria-controls={`accordion-panel-${item.id}`}
                             onClick={() => toggleItem(item.id)}
                         >
-                            <span><b>{item.title}</b> · <span>{item.position}</span></span>
-                            <span aria-hidden="true">{isOpen ? "−" : "+"}</span>
+                            <span><b>{item.title}</b> · {item.position}</span>
+
+                            <span
+                                className={`accordion-icon ${isOpen ? "is-open" : ""}`}
+                                aria-hidden="true"
+                            >
+                                +
+                            </span>
                         </button>
 
-                        {isOpen && (
-                            <div
-                                id={`accordion-panel-${item.id}`}
-                                role="region"
-                                className="accordion-panel"
-                            >
+                        <div
+                            id={`accordion-panel-${item.id}`}
+                            className={`accordion-content ${isOpen ? "is-open" : ""}`}
+                            aria-hidden={!isOpen}
+                        >
+                            <div className="accordion-content-inner">
                                 {item.content}
                             </div>
-                        )}
+                        </div>
                     </div>
                 );
             })}
+
         </div>
     );
 }

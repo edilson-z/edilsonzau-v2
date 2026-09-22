@@ -1,8 +1,8 @@
 .exp-container {
-    width: 100%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .accordion {
@@ -26,6 +26,37 @@
   font-size: 1rem;
   text-align: left;
 }
+
+.accordion-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 300ms ease;
+}
+
+.accordion-content.is-open {
+  grid-template-rows: 1fr;
+}
+
+.accordion-content-inner {
+  min-height: 0;
+  overflow: hidden;
+  padding: 0 1rem;
+
+  transition: padding 300ms ease;
+}
+
+.accordion-content.is-open .accordion-content-inner {
+  padding: 0 1rem 1rem;
+}
+
+.accordion-icon {
+  transition: transform 250ms ease;
+}
+
+.accordion-icon.is-open {
+  transform: rotate(45deg);
+}
+
 
 /* .accordion-trigger:hover {
   color: var(--text);
