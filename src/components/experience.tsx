@@ -71,6 +71,15 @@ const items: AccordionItem[] = [
                 <li><p>Contributed to 4 key projects with 100% on-time delivery</p></li>
             </ul>,
     },
+    {
+        id: "6",
+        title: "Zion Graphics",
+        position: "Front-End Web Developer",
+        content:
+            <ul>
+                <li><p>Designed and developed and maintained the front-end for the company website</p></li>
+            </ul>,
+    },
 ];
 
 export function Accordion({
