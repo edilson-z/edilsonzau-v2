@@ -4,6 +4,7 @@ import './component-styles/Experience.css'
 type AccordionItem = {
     id: string;
     title: string;
+    position: string;
     content: React.ReactNode;
 };
 
@@ -16,16 +17,31 @@ const items: AccordionItem[] = [
     {
         id: "1",
         title: "Freelance",
-        content: <p>Freelance Software Dev</p>,
+        position: "Software Dev",
+        content:
+            <ul>
+                <li><p>Architect, develop, and deploy bespoke web and mobile applications for international clients using React, Node.js, and cloud
+                    ecosystems</p></li>
+                <li><p>Manage end-to-end product lifecycles independently, leading client scoping, planning, testing, and continuous deployment</p></li>
+            </ul>,
     },
     {
         id: "2",
         title: "Didact Digital",
-        content: <p>Head of Tech</p>,
+        position: "Tech Lead",
+        content:
+            <ul>
+                <li><p>Architected and launched the company website, resulting in an increase in client inquiries and establishing brand credibility in the
+                    Namibian tech market</p></li>
+                <li><p>Spearheaded the development of an E-tendering Application that streamlined procurement processes</p></li>
+                <li><p>Designed and implemented Jade Garden Digital Menu platform, boosting restaurant ordering efficiency and increasing average
+                    order value by 15% through strategic upsell features</p></li>
+            </ul>,
     },
     {
         id: "3",
         title: "Tololi",
+        position: "Tech Lead",
         content: <p>Tech Lead</p>,
     },
 ];
@@ -67,7 +83,7 @@ export function Accordion({
                             aria-controls={`accordion-panel-${item.id}`}
                             onClick={() => toggleItem(item.id)}
                         >
-                            <span>{item.title}</span>
+                            <span><b>{item.title}</b> · <span>{item.position}</span></span>
                             <span aria-hidden="true">{isOpen ? "−" : "+"}</span>
                         </button>
 
