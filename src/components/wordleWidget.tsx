@@ -5,7 +5,7 @@ import "./component-styles/WordleWidget.css";
 const WORD_LENGTH = 5;
 const MAX_GUESSES = 4;
 const FLIP_STEP_MS = 220; // stagger between each letter's flip
-const FLIP_DURATION_MS = 500;
+// const FLIP_DURATION_MS = 500;
 
 type LetterStatus = "correct" | "present" | "absent";
 
@@ -160,7 +160,7 @@ export default function WordleWidget() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [handleKey]);
 
-  const rowsLeft = MAX_GUESSES - guesses.length - (status === "playing" ? 1 : 0);
+  // const rowsLeft = MAX_GUESSES - guesses.length - (status === "playing" ? 1 : 0);
 
   return (
     <section className="wd" aria-label="Wordle">
