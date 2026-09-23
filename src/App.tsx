@@ -48,9 +48,11 @@ function App() {
 
       <div className="cards">
         <Weather />
-        <ClockWidget />
         <MapWidget />
+
+        <ClockWidget />
         <WordleWidget />
+
         {/* <div className='card'>
           <h3>New Cool Widget</h3>
           <p>Coming Soon</p>

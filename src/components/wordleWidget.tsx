@@ -3,7 +3,7 @@ import { ANSWERS } from "./words";
 import "./component-styles/WordleWidget.css";
 
 const WORD_LENGTH = 5;
-const MAX_GUESSES = 6;
+const MAX_GUESSES = 4;
 const FLIP_STEP_MS = 220; // stagger between each letter's flip
 const FLIP_DURATION_MS = 500;
 
@@ -164,7 +164,7 @@ export default function WordleWidget() {
 
   return (
     <section className="wd" aria-label="Wordle">
-      <h2 className="wd__label">Wordle</h2>
+      <h2 className="wd__label">Daily Wordle</h2>
       {/* <p className="wd__sub">Type on your keyboard · new word daily</p> */}
 
       <div className="wd__board">
@@ -213,10 +213,10 @@ export default function WordleWidget() {
         role="status"
       >
         {status === "won"
-          ? "Solved! Back tomorrow for a new word."
+          ? "Solved! New word tommorow"
           : status === "lost"
-            ? `The word was ${answer}. Back tomorrow for a new one.`
-            : message || (rowsLeft <= 2 && rowsLeft > 0 ? `${rowsLeft} ${rowsLeft === 1 ? "guess" : "guesses"} left` : "\u00A0")}
+            ? `The word was ${answer}. Try again tomorrow.`
+            : message}
       </p>
     </section>
   );
