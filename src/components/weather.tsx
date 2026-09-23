@@ -13,7 +13,7 @@ const API_URL = "https://api.openweathermap.org/data/2.5";
 
 export interface WeatherData {
     weather: { id: number; description: string; icon: string }[];
-    main: { temp: number };
+    main: { temp: number, feels_like: number };
     sys: { country: string };
     name: string;
 }
@@ -162,7 +162,8 @@ export function WeatherCard({
 
             {range && (
                 <p className="ww__range">
-                    High {Math.round(range.high)}° – Low {Math.round(range.low)}°
+                    {/* High {Math.round(range.high)}° – Low {Math.round(range.low)}° */}
+                    Feels Like: {Math.round(data.main.feels_like)}{symbol}
                 </p>
             )}
         </section>

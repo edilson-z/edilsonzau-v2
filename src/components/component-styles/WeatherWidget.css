@@ -18,12 +18,13 @@
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.14em;
-    text-transform: uppercase;
     color: var(--text);
 }
 
 .ww__city {
-    color: var(--main)
+    color: var(--main);
+    text-transform: uppercase;
+
 }
 
 .ww__now {
