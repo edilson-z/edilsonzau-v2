@@ -19,7 +19,7 @@ interface MapWidgetProps {
 export default function MapWidget({
     lat = -8.83,
     lon = 13.24,
-    zoom = 11,
+    zoom = 12,
     label = "Luanda",
 }: MapWidgetProps) {
     const mapEl = useRef<HTMLDivElement>(null);
