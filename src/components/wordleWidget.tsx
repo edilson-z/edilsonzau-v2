@@ -208,7 +208,7 @@ export default function WordleWidget() {
       <p
         className={
           "wd__status" +
-          (status === "won" ? " wd__status--won" : status === "lost" ? " wd__status--lost" : message ? " wd__status--hint" : "")
+          (status === "won" ? " wd__status--won" : status === "lost" ? " wd__status--lost" : message ? " wd__status--hint" : "" )
         }
         role="status"
       >
@@ -216,7 +216,7 @@ export default function WordleWidget() {
           ? "Solved! New word tommorow"
           : status === "lost"
             ? `The word was ${answer}. Try again tomorrow.`
-            : message}
+            : message || "Type to play the game!"}
       </p>
     </section>
   );
