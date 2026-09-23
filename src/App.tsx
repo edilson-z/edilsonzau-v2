@@ -1,6 +1,7 @@
 import ClockWidget from './components/clockWidget'
 import Experience from './components/experience'
 import MapWidget from './components/mapWidget'
+import Projects from './components/projects'
 import Weather from './components/weather'
 import WordleWidget from './components/wordleWidget'
 
@@ -61,6 +62,7 @@ function App() {
 
       <div id='experience'></div>
       <Experience />
+      <Projects />
     </div>
   )
 }

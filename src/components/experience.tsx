@@ -20,9 +20,9 @@ const items: AccordionItem[] = [
         position: "Software Dev",
         content:
             <ul>
-                <li><p>Architect, develop, and deploy bespoke web and mobile applications for international clients using <b style={{color: '#d20f39'}}>React, Node.js, and cloud
+                <li><p>Architect, develop, and deploy bespoke web and mobile applications for international clients using <b style={{ color: '#d20f39' }}>React, Node.js, and cloud
                     ecosystems</b></p></li>
-                <li><p>Manage <b style={{color: '#d20f39'}}>end-to-end</b> product lifecycles independently, leading client scoping, planning, testing, and continuous deployment</p></li>
+                <li><p>Manage <b style={{ color: '#d20f39' }}>end-to-end</b> product lifecycles independently, leading client scoping, planning, testing, and continuous deployment</p></li>
             </ul>,
     },
     {
@@ -31,10 +31,10 @@ const items: AccordionItem[] = [
         position: "Tech Lead",
         content:
             <ul>
-                <li><p>Architected and launched the company website, resulting in an <b style={{color: '#d20f39'}}>increase in client inquiries</b> and establishing brand credibility in the
+                <li><p>Architected and launched the company website, resulting in an <b style={{ color: '#d20f39' }}>increase in client inquiries</b> and establishing brand credibility in the
                     Namibian tech market</p></li>
-                <li><p>Spearheaded the development of an <b style={{color: '#d20f39'}}>E-tendering Application</b> that streamlined procurement processes</p></li>
-                <li><p>Designed and implemented Jade Garden Digital Menu platform, boosting restaurant ordering efficiency and <b style={{color: '#d20f39'}}>increasing average
+                <li><p>Spearheaded the development of an <b style={{ color: '#d20f39' }}>E-tendering Application</b> that streamlined procurement processes</p></li>
+                <li><p>Designed and implemented Jade Garden Digital Menu platform, boosting restaurant ordering efficiency and <b style={{ color: '#d20f39' }}>increasing average
                     order value by 15% </b> through strategic upsell features</p></li>
             </ul>,
     },
@@ -44,8 +44,8 @@ const items: AccordionItem[] = [
         position: "Head of Technology",
         content:
             <ul>
-                <li><p>Led a cross-functional team of four developers, delivering 5 major systems with a <b style={{color: '#d20f39'}}>100% on-time</b> project completion rate</p></li>
-                <li><p>Architected and deployed web applications serving <b style={{color: '#d20f39'}}>1,000+ monthly users</b> with <b style={{color: '#d20f39'}}>99.9% uptime</b>, increasing customer retention</p></li>
+                <li><p>Led a cross-functional team of four developers, delivering 5 major systems with a <b style={{ color: '#d20f39' }}>100% on-time</b> project completion rate</p></li>
+                <li><p>Architected and deployed web applications serving <b style={{ color: '#d20f39' }}>1,000+ monthly users</b> with <b style={{ color: '#d20f39' }}>99.9% uptime</b>, increasing customer retention</p></li>
                 <li><p>Engineered data pipelines that processed customer data monthly, enabling real-time analytics</p></li>
             </ul>,
     },
@@ -55,10 +55,10 @@ const items: AccordionItem[] = [
         position: "Junior IT Manager",
         content:
             <ul>
-                <li><p>Designed and developed a <b style={{color: '#d20f39'}}>Multi-Vendor E-commerce Marketplace</b> that onboarded 25+ local vendors in the first quarter</p></li>
+                <li><p>Designed and developed a <b style={{ color: '#d20f39' }}>Multi-Vendor E-commerce Marketplace</b> that onboarded 25+ local vendors in the first quarter</p></li>
                 <li><p>Successfully secured copyrights for 3 core innovations, strengthening the company's IP portfolio</p></li>
                 <li><p>Implemented SEO strategies that improved organic search rankings by 65% and increased web traffic by 40% within 4 months</p></li>
-                <li><p>Provided technical support with a <b style={{color: '#d20f39'}}>100% issue resolution</b> rate, maintaining an average response time under an hour for <b style={{color: '#d20f39'}}>50+ clients</b></p></li>
+                <li><p>Provided technical support with a <b style={{ color: '#d20f39' }}>100% issue resolution</b> rate, maintaining an average response time under an hour for <b style={{ color: '#d20f39' }}>50+ clients</b></p></li>
             </ul>,
     },
     {
@@ -67,8 +67,8 @@ const items: AccordionItem[] = [
         position: "Software Developer",
         content:
             <ul>
-                <li><p>Delivered a responsive Mariental Municipality website used by <b style={{color: '#d20f39'}}>600+ citizens</b> monthly</p></li>
-                <li><p>Contributed to <b style={{color: '#d20f39'}}>4 key projects</b> with <b style={{color: '#d20f39'}}>100% on-time</b> delivery</p></li>
+                <li><p>Delivered a responsive Mariental Municipality website used by <b style={{ color: '#d20f39' }}>600+ citizens</b> monthly</p></li>
+                <li><p>Contributed to <b style={{ color: '#d20f39' }}>4 key projects</b> with <b style={{ color: '#d20f39' }}>100% on-time</b> delivery</p></li>
             </ul>,
     },
     {
@@ -91,9 +91,9 @@ const schoolItems: AccordionItem[] = [
             <div>
                 <p>Academic Achievements:</p>
                 <ul>
-                    <li><p><b style={{color: '#d20f39'}}>CUM LAUDE</b></p></li>
-                    <li><p><b style={{color: '#d20f39'}}>Best</b> Honours Student 2024 Award</p></li>
-                    <li><p>Artificial Intelligence 2023 <b style={{color: '#d20f39'}}>Excellence Award</b></p></li>
+                    <li><p><b style={{ color: '#d20f39' }}>CUM LAUDE</b></p></li>
+                    <li><p><b style={{ color: '#d20f39' }}>Best</b> Honours Student 2024 Award</p></li>
+                    <li><p>Artificial Intelligence 2023 <b style={{ color: '#d20f39' }}>Excellence Award</b></p></li>
                 </ul>
             </div>,
     },
@@ -180,15 +180,6 @@ export default function Experience() {
                     allowMultiple={false}
                 />
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-
         </div>
     )
 }
