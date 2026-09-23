@@ -216,7 +216,7 @@ export default function WordleWidget() {
           ? "Solved! New word tommorow"
           : status === "lost"
             ? `The word was ${answer}. Try again tomorrow.`
-            : message || "Type to play the game!"}
+            : message || "Type To Play The Game!"}
       </p>
     </section>
   );
