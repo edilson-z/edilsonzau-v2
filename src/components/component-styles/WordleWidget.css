@@ -118,8 +118,7 @@
 }
 
 .wd__status--hint {
-    color: #7d6b60;
-    font-weight: 500;
+    color: var(--text);
 }
 
 /* ---------- Animations ---------- */
