@@ -9,12 +9,13 @@
   color: #222;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  align-content: center;
 }
 
 .cw__label,
 .cw__date {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;

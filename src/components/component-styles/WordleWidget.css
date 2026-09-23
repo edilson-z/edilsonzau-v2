@@ -1,0 +1,174 @@
+.wd {
+    box-sizing: border-box;
+    /* width: 320px; */
+    max-width: 100%;
+    /* padding: 5px 24px; */
+    padding: 5px 0px 0px;
+    border: 1px solid var(--text);
+    border-radius: 8px;
+    background: var(--bg);
+    color: #222;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wd *,
+.wd *::before,
+.wd *::after {
+    box-sizing: border-box;
+}
+
+.wd__label {
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--main);
+}
+
+.wd__sub {
+    margin: 2px 0 0;
+    font-size: 12px;
+    color: var(--text);
+}
+
+/* ---------- Board ---------- */
+
+.wd__board {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 6px;
+    /* margin: 16px auto; */
+    margin: 2px auto;
+    width: 100%;
+    max-width: 220px;
+    /* max-width: 180px; */
+    place-self: center;
+}
+
+.wd__row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+}
+
+.wd__row--shake {
+    animation: wd-shake 0.35s;
+}
+
+.wd__cell {
+    position: relative;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ddd7cc;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.wd__cell--filled {
+    border-color: #b9b1a5;
+}
+
+.wd__cell--correct,
+.wd__cell--present,
+.wd__cell--absent {
+    border-color: transparent;
+    color: #f7f5f0;
+}
+
+.wd__cell--correct {
+    background: #7c9473;
+}
+
+.wd__cell--present {
+    background: #c9a227;
+}
+
+.wd__cell--absent {
+    background: #b9b1a5;
+}
+
+.wd__cell--flip {
+    animation: wd-flip 0.5s ease forwards;
+    animation-delay: var(--wd-delay, 0s);
+}
+
+/* ---------- Status line ---------- */
+
+.wd__status {
+    min-height: 20px;
+    margin: 10px 0 2px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.wd__status--won {
+    color: var(--text);
+}
+
+.wd__status--lost {
+    color: var(--text);
+}
+
+.wd__status--hint {
+    color: var(--text);
+}
+
+/* ---------- Animations ---------- */
+
+@keyframes wd-shake {
+
+    10%,
+    90% {
+        transform: translateX(-1px);
+    }
+
+    20%,
+    80% {
+        transform: translateX(2px);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translateX(-4px);
+    }
+
+    40%,
+    60% {
+        transform: translateX(4px);
+    }
+}
+
+@keyframes wd-flip {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateX(90deg);
+    }
+
+    51% {
+        border-color: transparent;
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .wd__row--shake,
+    .wd__cell--flip {
+        animation: none !important;
+    }
+}

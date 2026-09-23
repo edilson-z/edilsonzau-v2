@@ -2,6 +2,7 @@ import ClockWidget from './components/clockWidget'
 import Experience from './components/experience'
 import MapWidget from './components/mapWidget'
 import Weather from './components/weather'
+import WordleWidget from './components/wordleWidget'
 
 function App() {
 
@@ -47,12 +48,15 @@ function App() {
 
       <div className="cards">
         <Weather />
-        <ClockWidget />
         <MapWidget />
-        <div className='card'>
+
+        <ClockWidget />
+        <WordleWidget />
+
+        {/* <div className='card'>
           <h3>New Cool Widget</h3>
           <p>Coming Soon</p>
-        </div>
+        </div> */}
       </div>
 
       <div id='experience'></div>
