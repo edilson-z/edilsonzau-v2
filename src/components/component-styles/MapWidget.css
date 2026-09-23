@@ -3,7 +3,7 @@
   width: 240px;
   max-width: 100%;
   border: 1px solid var(--text);
-  border-radius: 8px;
+  border-radius: 16px;
   background: var(--bg);
   color: #222;
   text-align: center;
@@ -24,7 +24,7 @@
 
 .cm .cm__map {
   height: 100%;
-  border-radius: 8px;
+  border-radius: 16px;
   background: #ece8df;
   position: relative;
   z-index: 0;
