@@ -88,6 +88,7 @@ a {
 
 .secondary {
   color: var(--text);
+  transition: color 200ms ease;
 }
 
 .secondary:hover {
@@ -97,6 +98,11 @@ a {
 .hero-icon {
   width: 40px;
   margin: 0 5px;
+  transition: color 200ms ease;
+}
+
+.hero-icon path {
+  transition: fill 200ms ease;
 }
 
 .hero-icon:hover path {
