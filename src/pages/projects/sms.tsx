@@ -1,9 +1,11 @@
 import { Link } from "react-router";
 import Footer from "../../components/footer";
+import Nav from "../../components/nav";
 
 export default function Sms() {
     return (
         <div className="project-shell">
+            <Nav />
             <Link to="/" style={{ all: 'unset', cursor: 'pointer' }}>Back</Link>
             <h2>Agri SMS Chatbot</h2>
             <img src="/last.png" className="data-img" />
