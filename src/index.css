@@ -143,7 +143,7 @@ a {
 }
 
 .project-shell h2,
-h3 {
+.project-shell h3 {
   color: var(--main);
   margin: 50px 0 0px;
 }
