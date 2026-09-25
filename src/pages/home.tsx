@@ -10,16 +10,21 @@ import WordleWidget from '../components/wordleWidget'
 export default function home() {
     return (
         <div className='shell'>
-            <Header />
+            <section id='i'>
+                <Header />
+            </section>
             <div className="cards">
                 <Weather />
                 <MapWidget />
                 <ClockWidget />
                 <WordleWidget />
             </div>
-            <div id='experience'></div>
-            <Experience />
-            <Projects />
+            <section id='experience'>
+                <Experience />
+            </section>
+            <section id='projects'>
+                <Projects />
+            </section>
             <Footer />
         </div>
     )
