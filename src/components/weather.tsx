@@ -1,5 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
 import "./component-styles/WeatherWidget.css";
+import Loader from "./loader";
 
 // Vite. For Create React App use process.env.REACT_APP_WEATHER_API_KEY,
 // for Next.js use process.env.NEXT_PUBLIC_WEATHER_API_KEY.
@@ -251,7 +252,8 @@ export default function Weather({
     if (!data) {
         return (
             <section className="ww" aria-busy="true">
-                <p className="ww__status">Loading weather…</p>
+                <Loader />
+                {/* <p className="ww__status">Loading weather…</p> */}
             </section>
         );
     }
