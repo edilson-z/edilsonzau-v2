@@ -3,8 +3,9 @@ import Footer from "../../components/footer";
 export default function Sms() {
     return (
         <div className="project-shell">
-            <img src="/sms.png" className="data-img" />
             <h2>Agri SMS Chatbot</h2>
+            <img src="/last.png" className="data-img" />
+
             <p>Namibia's agriculture sector is vital for food security and economic growth (60% rely on it for
                 livelihood).
                 Lack of data on critical aspects like crop yields, losses, and access to resources is a challenge.

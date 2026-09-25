@@ -142,9 +142,15 @@ a {
   margin: 20px 25vw;
 }
 
+.project-shell h2,
+h3 {
+  color: var(--main);
+  margin: 50px 0 0px;
+}
+
 .data-img {
-    width: 100%;
-    height: auto;
-    border-radius: var(--radius);
-    margin: 20px 0;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin: 20px 0;
 }
