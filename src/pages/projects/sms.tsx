@@ -6,7 +6,7 @@ export default function Sms() {
     return (
         <div className="project-shell">
             <Nav />
-            <Link to="/" style={{ all: 'unset', cursor: 'pointer' }}>Back</Link>
+            <Link to="/" style={{ all: 'unset', cursor: 'pointer', color: 'var(--main)' }}>Back</Link>
             <h2>Agri SMS Chatbot</h2>
             <img src="/last.png" className="data-img" />
 
