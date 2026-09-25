@@ -108,9 +108,6 @@ export default function Projects() {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
         </div>
     )
 }

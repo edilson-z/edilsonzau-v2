@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: var(--main);
+}
+
+.footer p {
+    color: var(--bg);
+    font-weight: 850;
+}
+
+.footer-icon-container {
+    display: flex;
+}
+
+.footer-icon {
+    width: 32px;
+    margin: 0 5px;
+    transition: color 200ms ease;
+}
+
+.footer-icon path {
+    transition: fill 200ms ease;
+}
+
+.footer-icon:hover path {
+    fill: #ddd
+}
