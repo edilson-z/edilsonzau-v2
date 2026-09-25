@@ -78,7 +78,8 @@ a {
   padding: 0 20px;
   font-weight: 850;
   line-height: 1;
-  display: inline-flex
+  display: inline-flex;
+  /* border-radius: 8px; */
 }
 
 .primary {
