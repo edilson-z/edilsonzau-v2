@@ -46,7 +46,7 @@ a {
 }
 
 .shell {
-  margin: 20px 20vw;
+  margin: 0px 20vw 20px;
 }
 
 .header {
@@ -114,7 +114,7 @@ a {
   grid-template-columns: repeat(4, 1fr);
   gap: 14px;
   margin-top: 30px;
-  display: grid
+  display: grid;
 }
 
 .card {
@@ -140,7 +140,7 @@ a {
 }
 
 .project-shell {
-  margin: 20px 25vw;
+  margin: 0px 25vw 20px;
 }
 
 .project-shell h2,
