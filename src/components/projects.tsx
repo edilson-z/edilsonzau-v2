@@ -42,9 +42,8 @@ export default function Projects() {
                     </div>
                 </div> */}
 
-               
                 <div className="project-card">
-                    <img src='./jade-3.png' />
+                    <img src='./hydro.png' />
                     <div className='project-card-container'>
                         <h3>Hydro Tent</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  velit amet culpa repellendus aperiam assumenda quidem vitae</p>
@@ -58,7 +57,7 @@ export default function Projects() {
                         <span className="project-tag">MongoDB</span>
                     </div>
                 </div>
-                 <div className="project-card">
+                <div className="project-card">
                     <img src='./last.png' />
                     <div className='project-card-container'>
                         <h3>Hydro Tent</h3>
@@ -73,7 +72,7 @@ export default function Projects() {
                         <span className="project-tag">MongoDB</span>
                     </div>
                 </div>
-                 <div className="project-card">
+                <div className="project-card">
                     <img src='./sms-5.png' />
                     <div className='project-card-container'>
                         <h3>Hydro Tent</h3>
@@ -89,7 +88,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project-card">
-                    <img src='./hydro.png' />
+                    <img src='./jade-3.png' />
                     <div className='project-card-container'>
                         <h3>Hydro Tent</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  velit amet culpa repellendus aperiam assumenda quidem vitae</p>
