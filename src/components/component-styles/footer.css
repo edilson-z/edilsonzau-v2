@@ -1,0 +1,9 @@
+.footer {
+    padding: 5px 20px;
+    background-color: var(--main);
+}
+
+.footer p {
+    color: var(--bg);
+    font-weight: 850;
+}
