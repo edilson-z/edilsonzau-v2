@@ -137,3 +137,14 @@ a {
 .card>.card-topline {
   margin-bottom: 18px
 }
+
+.project-shell {
+  margin: 20px 25vw;
+}
+
+.data-img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+    margin: 20px 0;
+}
