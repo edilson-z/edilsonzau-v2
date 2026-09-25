@@ -3,7 +3,7 @@
 :root {
   --main: #d20f39;
   --bg: #eff1f5;
-  --text: #4c4f69
+  --text: #4c4f69;
 }
 
 ::-webkit-scrollbar {
@@ -136,4 +136,21 @@ a {
 
 .card>.card-topline {
   margin-bottom: 18px
+}
+
+.project-shell {
+  margin: 20px 25vw;
+}
+
+.project-shell h2,
+.project-shell h3 {
+  color: var(--main);
+  margin: 50px 0 0px;
+}
+
+.data-img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  margin: 20px 0;
 }

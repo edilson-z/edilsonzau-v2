@@ -1,0 +1,46 @@
+.nav {
+    width: 100%;
+    z-index: 10;
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    background: var(--bg);
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+    padding: 16px 0;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.nav-links {
+    align-items: center;
+    gap: 4px;
+    font-size: .9rem;
+    display: flex;
+}
+
+.nav-links a {
+    color: var(--text);
+    padding: 9px 12px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: var(--main);
+}
+
+#language {
+    background: transparent;
+    border: none;
+    color: var(--text);
+    align-items: center;
+    font-size: .9rem;
+    padding: 9px 12px;
+    outline: none; 
+    cursor: pointer;
+}
+
+#language option {
+    background-color: var(--main);
+}
