@@ -16,15 +16,15 @@
 }
 
 .footer-icon {
-  width: 32px;
-  margin: 0 5px;
-  transition: color 200ms ease;
+    width: 32px;
+    margin: 0 5px;
+    transition: color 200ms ease;
 }
 
 .footer-icon path {
-  transition: fill 200ms ease;
+    transition: fill 200ms ease;
 }
 
 .footer-icon:hover path {
-  fill: var(--main)
+    fill: #ddd
 }
