@@ -3,7 +3,7 @@ import Nav from "../../components/nav";
 
 export default function Hydro() {
   return (
-    <div className="project-shell">
+    <div className="project-shell" id="ii">
       <Nav />
       <h2>Hydroponics Control Unit</h2>
       <img src='/hydro.png' className="data-img" />

@@ -6,7 +6,7 @@ export default function Projects() {
         <div>
             <h2>Projects</h2>
             <div className="project-cards">
-                <Link to="/projects/hydro" style={{ all: 'unset', cursor: 'pointer' }}>
+                <Link to="/projects/hydro#ii" style={{ all: 'unset', cursor: 'pointer' }}>
                     <div className="project-card">
                         <img src='./hydro.png' />
                         <div className='project-card-container'>
@@ -23,7 +23,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </Link>
-                <Link to="/projects/sms" style={{ all: 'unset', cursor: 'pointer' }}>
+                <Link to="/projects/sms#iii" style={{ all: 'unset', cursor: 'pointer' }}>
                     <div className="project-card">
                         <img src='./last.png' />
                         <div className='project-card-container'>
@@ -42,7 +42,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </Link>
-                <Link to="/projects/sms" style={{ all: 'unset', cursor: 'pointer' }}>
+                <Link to="/projects/sms#iii" style={{ all: 'unset', cursor: 'pointer' }}>
                     <div className="project-card">
                         <img src='./last.png' />
                         <div className='project-card-container'>
@@ -61,7 +61,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </Link>
-                <Link to="/projects/jade" style={{ all: 'unset', cursor: 'pointer' }}>
+                <Link to="/projects/jade#iv" style={{ all: 'unset', cursor: 'pointer' }}>
                     <div className="project-card">
                         <img src='./jade-3.png' />
                         <div className='project-card-container'>

@@ -4,7 +4,7 @@ import Nav from "../../components/nav";
 
 export default function Sms() {
     return (
-        <div className="project-shell">
+        <div className="project-shell" id="iii">
             <Nav />
             {/* <Link to="/" style={{ all: 'unset', cursor: 'pointer', color: 'var(--main)' }}>Back</Link> */}
             <h2>Agri SMS Chatbot</h2>
