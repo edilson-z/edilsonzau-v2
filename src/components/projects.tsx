@@ -60,23 +60,25 @@ export default function Projects() {
                         </div>
                     </div>
                 </Link>
-                <div className="project-card">
-                    <img src='./last.png' />
-                    <div className='project-card-container'>
-                        <h3>SMS Chatbot For Data Collection</h3>
-                        <p>An offline-capable SMS chatbot that enables rural farmers to report crop yields, pest outbreaks, and market trends using feature phones.</p>
-                        <span className="project-tag">Python</span>
-                        <span className="project-tag">Flask</span>
-                        <span className="project-tag">OpenAI</span>
-                        <span className="project-tag">Twillio</span>
-                        <span className="project-tag">MongoDB</span>
-                        <span className="project-tag">NumPy</span>
-                        <span className="project-tag">Pandas</span>
-                        <span className="project-tag">Jupyter</span>
-                        <span className="project-tag">Git</span>
-                        <span className="project-tag">NGROK</span>
+                <Link to="/projects/sms" style={{ all: 'unset', cursor: 'pointer' }}>
+                    <div className="project-card">
+                        <img src='./last.png' />
+                        <div className='project-card-container'>
+                            <h3>SMS Chatbot For Data Collection</h3>
+                            <p>An offline-capable SMS chatbot that enables rural farmers to report crop yields, pest outbreaks, and market trends using feature phones.</p>
+                            <span className="project-tag">Python</span>
+                            <span className="project-tag">Flask</span>
+                            <span className="project-tag">OpenAI</span>
+                            <span className="project-tag">Twillio</span>
+                            <span className="project-tag">MongoDB</span>
+                            <span className="project-tag">NumPy</span>
+                            <span className="project-tag">Pandas</span>
+                            <span className="project-tag">Jupyter</span>
+                            <span className="project-tag">Git</span>
+                            <span className="project-tag">NGROK</span>
+                        </div>
                     </div>
-                </div>
+                </Link>
                 <div className="project-card">
                     <img src='./sms-5.png' />
                     <div className='project-card-container'>
