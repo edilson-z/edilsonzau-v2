@@ -3,8 +3,6 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css"; // must be imported, or the map renders broken
 import "./component-styles/MapWidget.css";
 
-// OpenStreetMap's free tiles. Fine for a small site; see their tile usage policy
-// if you expect heavy traffic, or swap in another provider here (and its attribution).
 const TILE_URL = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
 const ATTRIBUTION =
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
