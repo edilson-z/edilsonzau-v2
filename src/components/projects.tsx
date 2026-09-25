@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import './component-styles/Projects.css'
 
 export default function Projects() {
@@ -42,21 +43,23 @@ export default function Projects() {
                     </div>
                 </div> */}
 
-                <div className="project-card">
-                    <img src='./hydro.png' />
-                    <div className='project-card-container'>
-                        <h3>Hydro Tent</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  velit amet culpa repellendus aperiam assumenda quidem vitae</p>
-                        <span className="project-tag">Java</span>
-                        <span className="project-tag">Kotlin</span>
-                        <span className="project-tag">Spring</span>
-                        <span className="project-tag">Arduino</span>
-                        <span className="project-tag">Python</span>
-                        <span className="project-tag">RFC</span>
-                        <span className="project-tag">React Native</span>
-                        <span className="project-tag">MongoDB</span>
+                <Link to="/projects/hydro" style={{all: 'unset', cursor: 'pointer'}}>
+                    <div className="project-card">
+                        <img src='./hydro.png' />
+                        <div className='project-card-container'>
+                            <h3>Hydro Tent</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  velit amet culpa repellendus aperiam assumenda quidem vitae</p>
+                            <span className="project-tag">Java</span>
+                            <span className="project-tag">Kotlin</span>
+                            <span className="project-tag">Spring</span>
+                            <span className="project-tag">Arduino</span>
+                            <span className="project-tag">Python</span>
+                            <span className="project-tag">RFC</span>
+                            <span className="project-tag">React Native</span>
+                            <span className="project-tag">MongoDB</span>
+                        </div>
                     </div>
-                </div>
+                </Link>
                 <div className="project-card">
                     <img src='./last.png' />
                     <div className='project-card-container'>

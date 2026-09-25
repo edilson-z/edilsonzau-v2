@@ -1,28 +1,16 @@
-import ClockWidget from './components/clockWidget'
-import Experience from './components/experience'
-import Footer from './components/footer'
-import Header from './components/header'
-import MapWidget from './components/mapWidget'
-import Projects from './components/projects'
-import Weather from './components/weather'
-import WordleWidget from './components/wordleWidget'
+import { Routes, Route, BrowserRouter } from 'react-router'
+import Home from './pages/home'
+import Hydro from './pages/projects/hydro'
 
 function App() {
 
   return (
-    <div className='shell'>
-      <Header />
-      <div className="cards">
-        <Weather />
-        <MapWidget />
-        <ClockWidget />
-        <WordleWidget />
-      </div>
-      <div id='experience'></div>
-      <Experience />
-      <Projects />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects/hydro" element={<Hydro />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
