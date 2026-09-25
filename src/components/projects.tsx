@@ -43,21 +43,6 @@ export default function Projects() {
                 </div> */}
 
                 <div className="project-card">
-                    <img src='./sms-5.png' />
-                    <div className='project-card-container'>
-                        <h3>Hydro Tent</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  velit amet culpa repellendus aperiam assumenda quidem vitae</p>
-                        <span className="project-tag">Java</span>
-                        <span className="project-tag">Kotlin</span>
-                        <span className="project-tag">Spring</span>
-                        <span className="project-tag">Arduino</span>
-                        <span className="project-tag">Python</span>
-                        <span className="project-tag">RFC</span>
-                        <span className="project-tag">React Native</span>
-                        <span className="project-tag">MongoDB</span>
-                    </div>
-                </div>
-                <div className="project-card">
                     <img src='./hydro.png' />
                     <div className='project-card-container'>
                         <h3>Hydro Tent</h3>
@@ -73,7 +58,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project-card">
-                    <img src='./jade-3.png' />
+                    <img src='./last.png' />
                     <div className='project-card-container'>
                         <h3>Hydro Tent</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  velit amet culpa repellendus aperiam assumenda quidem vitae</p>
@@ -87,8 +72,23 @@ export default function Projects() {
                         <span className="project-tag">MongoDB</span>
                     </div>
                 </div>
-                 <div className="project-card">
-                    <img src='./last.png' />
+                <div className="project-card">
+                    <img src='./sms-5.png' />
+                    <div className='project-card-container'>
+                        <h3>Hydro Tent</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  velit amet culpa repellendus aperiam assumenda quidem vitae</p>
+                        <span className="project-tag">Java</span>
+                        <span className="project-tag">Kotlin</span>
+                        <span className="project-tag">Spring</span>
+                        <span className="project-tag">Arduino</span>
+                        <span className="project-tag">Python</span>
+                        <span className="project-tag">RFC</span>
+                        <span className="project-tag">React Native</span>
+                        <span className="project-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div className="project-card">
+                    <img src='./jade-3.png' />
                     <div className='project-card-container'>
                         <h3>Hydro Tent</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  velit amet culpa repellendus aperiam assumenda quidem vitae</p>
