@@ -54,6 +54,10 @@ export default function MapWidget({
 
         map.current = m;
 
+        requestAnimationFrame(() => {
+            m.invalidateSize();
+        });
+
         return () => {
             el.removeEventListener("focus", enableWheel);
             el.removeEventListener("blur", disableWheel);
@@ -67,12 +71,24 @@ export default function MapWidget({
 
     // Move the map and pin when the props change
     useEffect(() => {
-        map.current?.setView([lat, lon], zoom);
-        marker.current?.setLatLng([lat, lon]);
+       const el = mapEl.current;
+        const m = map.current;
+
+        if (!el || !m || typeof ResizeObserver === "undefined") {
+            return;
+        }
+
+        const observer = new ResizeObserver(() => {
+            m.invalidateSize();
+        });
+
+        observer.observe(el);
+
+        return () => observer.disconnect();
     }, [lat, lon, zoom]);
 
     return (
-        <section  className="cm" aria-label={`Map of ${label}`}>
+        <section className="cm" aria-label={`Map of ${label}`}>
             <div ref={mapEl} className="cm__map" />
         </section>
     );
