@@ -3,9 +3,11 @@ import Nav from "../../components/nav";
 
 export default function Hydro() {
   return (
-    <div className="shell">
+    <div className="project-shell">
       <Nav />
       <h2>Hydroponics Control Unit</h2>
+      <img src='/hydro.png' className="data-img" />
+
       <p>This project presents an Artificial Intelligence (AI) and Internet of Things (IoT) enabled hydroponic
         grow tent that implements the Nutrient Film Technique (NFT) for leafy green plant production. The
         system uses a Random Forest Classifier (RFC) and various sensors for the real-time, accurate
@@ -15,11 +17,6 @@ export default function Hydro() {
         elements in the tent.
       </p>
 
-      <div className="hydro-images">
-        <img src="./assets/hydro/hydro-tent.webp" className="hydro-img" />
-        <img src="./assets/hydro/hydro-tent2.webp" className="hydro-img" />
-
-      </div>
       <h3>Features</h3>
       <ul>
         <li>
@@ -50,9 +47,17 @@ export default function Hydro() {
 
       <h3>Demo</h3>
 
-      <video width="450px" height="auto" className="vid" controls>
-        <source src="./assets/hydro/Hydroponics App Demo.MP4" type="video/mp4" />
-      </video>
+      <div className="hydro-images">
+        <img src="/hydro-tent.webp" className="hydro-img" />
+        <img src="/hydro-tent2.webp" className="hydro-img" />
+      </div>
+      <iframe
+        src="https://drive.google.com/file/d/1H1LwVCdY3Ux9-dT21coYqJhvtkuSdwEm/preview"
+        width="400px"
+        height="700px"
+        allowFullScreen>
+      </iframe>
+
       <br />
       <br />
       <br />

@@ -154,3 +154,28 @@ a {
   border-radius: 16px;
   margin: 20px 0;
 }
+
+.hydro-images {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 40px 0;
+  gap: 20px;
+}
+
+.hydro-img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 16px;
+}
+
+.jade-images {
+  display: flex;
+  gap: 20px;
+}
+
+.jade-img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 16px;
+}
