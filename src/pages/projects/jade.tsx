@@ -5,6 +5,11 @@ export default function Jade() {
         <div className="shell">
             <h1>Jade Garden</h1>
 
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <Footer />
         </div>
     )
