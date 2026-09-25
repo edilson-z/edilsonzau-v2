@@ -151,6 +151,6 @@ a {
 .data-img {
   width: 100%;
   height: auto;
-  border-radius: var(--radius);
+  border-radius: 16px;
   margin: 20px 0;
 }
