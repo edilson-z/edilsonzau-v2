@@ -102,7 +102,7 @@ export default function Projects() {
                     <div className="project-card">
                         <img src='./jade-3.png' />
                         <div className='project-card-container'>
-                            <h3>Hydro Tent</h3>
+                            <h3>Jade Garden Digital Menu</h3>
                             <p>A lightweight, mobile-first e-commerce platform that digitises in-dining ordering through table-specific QR codes.</p>
                             <span className="project-tag">Next.js</span>
                             <span className="project-tag">React.js</span>
