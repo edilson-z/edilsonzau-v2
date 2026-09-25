@@ -47,8 +47,8 @@ export default function Projects() {
                     <div className="project-card">
                         <img src='./hydro.png' />
                         <div className='project-card-container'>
-                            <h3>Hydro Tent</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  velit amet culpa repellendus aperiam assumenda quidem vitae</p>
+                            <h3>Hydroponics AI & IoT Control Unit</h3>
+                            <p>An AI and IoT-powered hydroponic control system using NFT and a Random Forest Classifier to monitor and optimise hydroponics variables in real time.</p>
                             <span className="project-tag">Java</span>
                             <span className="project-tag">Kotlin</span>
                             <span className="project-tag">Spring</span>
