@@ -2,7 +2,7 @@ export default function Header() {
     return (
         <div className='header'>
             <h1>Hello, I'm <span>Edilson Zau</span></h1>
-            <p>I'm a <span>software developer</span> with more than five years of experience building websites, apps, and data systems. I'm currently <span>freelancing</span> in <span>Luanda, Angola</span>. I don't know what to put as the closing statement yet.</p>
+            <p>I'm a <span>software developer</span> with more than five years of experience building websites, apps, and data systems. I'm currently <span>freelancing</span> in <span>Luanda, Angola</span>. I'm open to freelancing roles and full-time opportunities.</p>
 
             <div className="hero-actions">
                 <a href="https://cal.com/edilson-zau/15min" className="button primary" target='_blank'>Let's Chat!</a>
