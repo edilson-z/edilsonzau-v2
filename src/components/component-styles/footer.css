@@ -8,7 +8,7 @@
 }
 
 .footer p {
-    color: var(--bg);
+    color: #eff1f5;
     font-weight: 850;
 }
 
@@ -27,5 +27,5 @@
 }
 
 .footer-icon:hover path {
-    fill: #ddd
+    fill: var(--project-border)
 }
