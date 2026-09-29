@@ -95,3 +95,9 @@
     outline: 2px solid #222;
     outline-offset: 2px;
 }
+
+@media (width<=720px) {
+    .ww {
+        width: 100%;
+    }
+}
