@@ -1,5 +1,6 @@
 import "./component-styles/nav.css"
 import { Link } from "react-router"
+import ThemeToggle from "./ToggleTheme"
 
 export default function Nav() {
     return (
@@ -14,6 +15,7 @@ export default function Nav() {
                     <option value="english" selected>🌐 Eng</option>
                     <option value="portuguese">🌐 Pt</option>
                 </select>
+                <ThemeToggle />
             </div>
         </nav>
     )
