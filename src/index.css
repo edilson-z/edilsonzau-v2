@@ -5,7 +5,7 @@
   --bg: #eff1f5;
   --text: #4c4f69;
   --headings: #000000;
-  --project-boarder: #dddddd;
+  --project-border: #dddddd;
 }
 
 [data-theme="dark"] {
@@ -13,7 +13,7 @@
   --bg: #121212;
   --text: #eff1f5;
   --headings: #ffffff;
-  --project-boarder: #303030;
+  --project-border: #303030;
 }
 
 
