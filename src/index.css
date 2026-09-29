@@ -4,14 +4,14 @@
   --main: #d20f39;
   --bg: #eff1f5;
   --text: #4c4f69;
-  --h1: #000000;
+  --headings: #000000;
 }
 
 [data-theme="dark"] {
   --main: #e64553;
   --bg: #121212;
   --text: #f3f4f6;
-  --h1: #f3f4f6;
+  --headings: #f3f4f6;
 }
 
 
@@ -37,12 +37,16 @@ body {
 
 h1 {
   margin: 0;
-  color: var(--h1)
+  color: var(--headings)
 }
 
 h2 {
   margin-top: 50px;
-  color: var(--text)
+  color: var(--headings)
+}
+
+h3 {
+  color: var(--headings)
 }
 
 p {
@@ -54,6 +58,15 @@ p {
 
 a {
   text-decoration: none;
+}
+
+.mode-toggle {
+  background-color: var(--bg);
+  /* border: 1px solid var(--text); */
+  border: 1px solid var(--main);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
 }
 
 /* span {
