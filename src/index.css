@@ -5,13 +5,15 @@
   --bg: #eff1f5;
   --text: #4c4f69;
   --headings: #000000;
+  --project-boarder: #dddddd;
 }
 
 [data-theme="dark"] {
   --main: #e64553;
   --bg: #121212;
-  --text: #f3f4f6;
+  --text: #eff1f5;
   --headings: #ffffff;
+  --project-boarder: #303030;
 }
 
 

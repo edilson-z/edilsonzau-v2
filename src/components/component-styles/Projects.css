@@ -8,7 +8,7 @@
 
 .project-card {
     border-radius: 16px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--project-boarder);
     transition: border-color 300ms ease;
     cursor: pointer;
     overflow: hidden;
