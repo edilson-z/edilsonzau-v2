@@ -137,7 +137,7 @@ export function Accordion({
                             aria-controls={`accordion-panel-${item.id}`}
                             onClick={() => toggleItem(item.id)}
                         >
-                            <span><b>{item.title}</b> · {item.position}</span>
+                            <span style={{color: "var(--headings)"}}><b>{item.title}</b> · {item.position}</span>
 
                             <span
                                 className={`accordion-icon ${isOpen ? "is-open" : ""}`}
