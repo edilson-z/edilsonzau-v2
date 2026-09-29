@@ -1,4 +1,5 @@
 import "./component-styles/nav.css"
+import ThemeToggle from "./ToggleTheme"
 
 export default function HomeNav() {
     return (
@@ -13,6 +14,7 @@ export default function HomeNav() {
                     <option value="english" selected>🌐 Eng</option>
                     <option value="portuguese">🌐 Pt</option>
                 </select>
+                <ThemeToggle />
             </div>
         </nav>
     )
