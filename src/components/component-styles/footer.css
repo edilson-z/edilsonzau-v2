@@ -23,9 +23,10 @@
 }
 
 .footer-icon path {
+    fill: var(--bg);
     transition: fill 200ms ease;
 }
 
 .footer-icon:hover path {
-    fill: #ddd
+    fill: var(--text)
 }

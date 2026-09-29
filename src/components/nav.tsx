@@ -11,10 +11,10 @@ export default function Nav() {
                 <Link to="/#experience">Experience</Link>
                 <Link to="/#projects">Projects</Link>
                 <a href="/Edilson_Zau.pdf" target="_blank" id="resume">Resume</a>
-                <select name="languages" value="english" id="language">
+                {/* <select name="languages" value="english" id="language">
                     <option value="english" selected>🌐 Eng</option>
                     <option value="portuguese">🌐 Pt</option>
-                </select>
+                </select> */}
                 <ThemeToggle />
             </div>
         </nav>

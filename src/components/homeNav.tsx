@@ -10,10 +10,10 @@ export default function HomeNav() {
                 <a href="/#experience">Experience</a>
                 <a href="/#projects">Projects</a>
                 <a href="/Edilson_Zau.pdf" target="_blank" id="resume">Resume</a>
-                <select name="languages" value="english" id="language">
+                {/* <select name="languages" value="english" id="language">
                     <option value="english" selected>🌐 Eng</option>
                     <option value="portuguese">🌐 Pt</option>
-                </select>
+                </select> */}
                 <ThemeToggle />
             </div>
         </nav>

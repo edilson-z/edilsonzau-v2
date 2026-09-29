@@ -51,6 +51,7 @@
 
 .accordion-icon {
   transition: transform 250ms ease;
+  color: var(--headings)
 }
 
 .accordion-icon.is-open {
