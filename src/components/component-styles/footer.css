@@ -30,3 +30,9 @@
 .footer-icon:hover path {
     fill: var(--text)
 }
+
+@media (width<=720px) {
+    .footer {
+        flex-direction: column;
+    }
+}
