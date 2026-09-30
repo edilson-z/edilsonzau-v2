@@ -37,6 +37,7 @@
     /* max-height: 280px; */
     overflow: hidden;
 }
+
 .project-card img {
     width: 100%;
     border-radius: 16px 16px 0 0;
@@ -64,4 +65,10 @@
     text-transform: uppercase;
     font-size: .76rem;
     font-weight: 850;
+}
+
+@media (width<=720px) {
+    .project-cards {
+        grid-template-columns: 1fr
+    }
 }

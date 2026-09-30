@@ -1,8 +1,8 @@
 .nav {
     width: 100%;
     z-index: 10;
-    -webkit-backdrop-filter: blur(18px);
-    backdrop-filter: blur(18px);
+    /* -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px); */
     background: var(--bg);
     justify-content: space-between;
     align-items: center;
@@ -13,6 +13,7 @@
     top: 0;
     left: 0;
 }
+
 .nav-links {
     align-items: center;
     gap: 4px;
@@ -37,10 +38,29 @@
     align-items: center;
     font-size: .9rem;
     padding: 9px 12px;
-    outline: none; 
+    outline: none;
     cursor: pointer;
 }
 
 #language option {
     background-color: var(--bg);
+}
+
+@media (width<=720px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+        padding: 16px 0;
+        position: sticky;
+        z-index: 9999;
+    }
+    .nav-links a {
+        font-size: 0.8rem;
+        padding: 5px
+    }
+    .brand {
+        display: none;
+    }
+
 }

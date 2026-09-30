@@ -23,7 +23,7 @@
 }
 
 .cw__label {
-    color: var(--main)
+  color: var(--main)
 }
 
 .cw__time {
@@ -50,8 +50,13 @@
 }
 
 @keyframes cw-blink {
-  0%   { opacity: 1; }
-  50%  { opacity: 0.15; }
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.15;
+  }
 }
 
 /* Text for screen readers only (the visible digits are hidden from them) */
@@ -67,5 +72,11 @@
 @media (prefers-reduced-motion: reduce) {
   .cw__colon {
     animation: none;
+  }
+}
+
+@media (width<=720px) {
+  .cw {
+    width: 100%;
   }
 }

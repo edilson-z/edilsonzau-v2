@@ -171,3 +171,9 @@
         animation: none !important;
     }
 }
+
+@media (width<=720px) {
+    .wd {
+        width: 100%;
+    }
+}

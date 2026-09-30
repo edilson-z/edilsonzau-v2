@@ -76,3 +76,10 @@
 .cm .cm__map .leaflet-control-attribution a {
   color: var(--text);
 }
+
+@media (width<=720px) {
+  .cm {
+    width: 100%;
+    height: 245px;
+  }
+}
