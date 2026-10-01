@@ -218,6 +218,11 @@ a {
     0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
 
+.hydro-vid {
+  width: 400px;
+  height: 700px;
+}
+
 .jade-images {
   display: flex;
   gap: 20px;
@@ -274,5 +279,18 @@ a {
 
   .project-shell {
     margin: 0px 20px 20px;
+  }
+
+  .hydro-images {
+    flex-direction: column;
+  }
+
+  .hydro-img {
+    max-width: 100%;
+  }
+
+  .hydro-vid {
+    max-width: 100%;
+    height: 500px;
   }
 }
