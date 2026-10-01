@@ -271,4 +271,8 @@ a {
   .cards {
     grid-template-columns: 1fr
   }
+
+  .project-shell {
+    margin: 0px 20px 20px;
+  }
 }
