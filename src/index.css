@@ -226,13 +226,13 @@ a {
 .jade-images {
   display: flex;
   gap: 20px;
+  margin: 20px 0;
 }
 
 .jade-img {
   max-width: 300px;
   height: auto;
   border-radius: 16px;
-  margin: 20px 0;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
@@ -292,5 +292,13 @@ a {
   .hydro-vid {
     max-width: 100%;
     height: 500px;
+  }
+
+  .jade-images {
+    flex-direction: column;
+  }
+
+  .jade-img {
+    max-width: 100%;
   }
 }
