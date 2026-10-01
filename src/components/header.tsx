@@ -29,7 +29,7 @@ export default function Header() {
                     </svg>
                 </a>
                 <div className="mobile-buttons">
-                    <a className="mobile-btn" href="https://www.linkedin.com/in/edilson-zau/" target="_blank">
+                    <a className="mobile-btn" href="mailto:edilsonzau@gmail.com" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 640 640"
                             width="40" height="40" >
