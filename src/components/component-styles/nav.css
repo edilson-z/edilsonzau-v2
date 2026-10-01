@@ -52,7 +52,7 @@
         align-items: center;
         margin-top: 15px;
         padding: 16px 0;
-        position: sticky;
+        /* position: sticky; */
         z-index: 9999;
     }
     .nav-links a {
