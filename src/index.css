@@ -131,11 +131,6 @@ a {
   padding: 0 10px;
 }
 
-.btn-icon {
-  height: 40px;
-  width: 40px
-}
-
 .secondary:hover {
   color: var(--main)
 }
