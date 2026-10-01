@@ -41,7 +41,6 @@
   min-height: 0;
   overflow: hidden;
   padding: 0 1rem;
-
   transition: padding 300ms ease;
 }
 
@@ -66,4 +65,8 @@
 .accordion-panel {
   padding: 0 1rem 1rem;
   color: var(--text);
+}
+
+ul li::marker {
+  color: var(--main); 
 }

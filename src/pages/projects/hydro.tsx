@@ -56,8 +56,7 @@ export default function Hydro() {
         </div>
         <iframe
           src="https://drive.google.com/file/d/1H1LwVCdY3Ux9-dT21coYqJhvtkuSdwEm/preview"
-          width="400px"
-          height="700px"
+          className="hydro-vid"
           allowFullScreen>
         </iframe>
 
