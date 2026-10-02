@@ -239,10 +239,10 @@ a {
 @media (width<=980px) {
   .shell {
     width: 80%;
-    margin: 0px 10vw 20px;
+    /* margin: 0px 10vw 20px; */
   }
 
-   .header {
+  .header {
     width: 100%;
     margin: 0 auto;
     padding: 120px 0 50px;
@@ -257,7 +257,8 @@ a {
 
 @media (width<=720px) {
   .shell {
-    margin: 0px 20px 20px;
+    /* margin: 0px 20px 20px 20px; */
+    width: min(100% - 28px, 1140px);
   }
 
   .header {
