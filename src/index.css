@@ -33,8 +33,9 @@ html {
 }
 
 body {
-  background: var(--bg);
+  background-color: var(--bg);
   font-family: 'Courier New', Courier, monospace;
+  transition: background-color 300ms ease, color 300ms ease;
 }
 
 h1 {
