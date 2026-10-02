@@ -48,8 +48,8 @@ const items: AccordionItem[] = [
         time: "May 2024 - Present",
         content:
             <ul>
-                <li><p>Led a cross-functional team of four developers, delivering 5 major systems with a <b style={{ color: 'var(--main)' }}>100% on-time</b> project completion rate</p></li>
                 <li><p>Led the development of an  <b style={{ color: 'var(--main)' }}>e-commerce platform</b> for the <b style={{ color: 'var(--main)' }}>United Nations World Food Programme</b>'s school feeding program, contributing to an 8-year strategic MOU between the organizations</p></li>
+                <li><p>Led a cross-functional team of four developers, delivering 5 major systems with a <b style={{ color: 'var(--main)' }}>100% on-time</b> project completion rate</p></li>
                 <li><p>Engineered data pipelines that processed customer data monthly, enabling real-time analytics</p></li>
                 <li><p>Architected and deployed web applications serving <b style={{ color: 'var(--main)' }}>1,000+ monthly users</b> with <b style={{ color: 'var(--main)' }}>99.9% uptime</b>, increasing customer retention</p></li>
             </ul>,
