@@ -1,6 +1,6 @@
 .cm {
   box-sizing: border-box;
-  width: 240px;
+  width: 265px;
   max-width: 100%;
   border: 1px solid var(--text);
   border-radius: 16px;
@@ -8,7 +8,7 @@
   color: #222;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-    transition: background-color 300ms ease, color 300ms ease;
+  transition: background-color 300ms ease, color 300ms ease;
 }
 
 .cm__label,
