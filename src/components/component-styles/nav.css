@@ -12,6 +12,7 @@
     position: static;
     top: 0;
     left: 0;
+    transition: background-color 300ms ease, color 300ms ease;
 }
 
 .nav-links {
