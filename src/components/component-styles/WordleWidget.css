@@ -173,6 +173,12 @@
     }
 }
 
+@media (width<=980px) {
+    .wd {
+        width: 265px;
+    }
+}
+
 @media (width<=720px) {
     .wd {
         width: 100%;

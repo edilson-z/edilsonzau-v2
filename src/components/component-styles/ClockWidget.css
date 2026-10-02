@@ -76,6 +76,12 @@
   }
 }
 
+@media (width<=980px) {
+  .cw {
+    width: 240px;
+  }
+}
+
 @media (width<=720px) {
   .cw {
     width: 100%;
