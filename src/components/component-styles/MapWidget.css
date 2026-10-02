@@ -1,6 +1,6 @@
 .cm {
   box-sizing: border-box;
-  width: 265px;
+  min-width: 245px;
   max-width: 100%;
   border: 1px solid var(--text);
   border-radius: 16px;

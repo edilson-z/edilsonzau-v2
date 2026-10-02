@@ -1,6 +1,6 @@
 .ww {
     box-sizing: border-box;
-    width: 240px;
+    min-width: 220px;
     max-width: 100%;
     padding: 20px 24px;
     border: 1px solid var(--text);
