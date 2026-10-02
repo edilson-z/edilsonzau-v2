@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ANSWERS } from "./words";
 import "./component-styles/WordleWidget.css";
 
@@ -102,9 +102,19 @@ export default function WordleWidget() {
   const [shakeRow, setShakeRow] = useState<number | null>(null);
   const [message, setMessage] = useState("");
 
+  // A real, focusable input is what makes a phone's on-screen keyboard appear.
+  // It's visually hidden (see .wd__input in the CSS) but stays in the
+  // accessibility tree, so screen reader and keyboard-only users can tab to it too.
+  const inputRef = useRef<HTMLInputElement>(null);
+
   useEffect(() => {
     persist({ dateKey, guesses, status });
   }, [dateKey, guesses, status]);
+
+  // Once the game ends, drop focus so the on-screen keyboard closes on its own.
+  useEffect(() => {
+    if (status !== "playing") inputRef.current?.blur();
+  }, [status]);
 
   const submitGuess = useCallback(() => {
     if (status !== "playing") return;
@@ -140,11 +150,13 @@ export default function WordleWidget() {
     [current, status, submitGuess]
   );
 
-  // Physical keyboard support. preventDefault matters here: with no <input> focused,
-  // Firefox's default action for Backspace is "go back in browser history" (Chrome
-  // dropped that behavior years ago, which is why this only shows up in Firefox).
+  // Physical keyboard support for desktop visitors who start typing without
+  // clicking anything first. While the hidden input is focused, this stands
+  // down and lets the input's own handlers (below) run instead, so a key
+  // press is never processed twice.
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
+      if (document.activeElement === inputRef.current) return;
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.key === "Enter") {
         e.preventDefault();
@@ -160,12 +172,52 @@ export default function WordleWidget() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [handleKey]);
 
-  // const rowsLeft = MAX_GUESSES - guesses.length - (status === "playing" ? 1 : 0);
+  // Mobile (and focused-desktop) input: read from the field's value rather than
+  // keydown. Phone keyboards, especially with autocorrect/predictive text on,
+  // often don't send a usable key for letters, but the input's value is always
+  // right, so this works the same for a tapped virtual keyboard or a physical one.
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (status !== "playing") return;
+    const letters = e.target.value.toUpperCase().replace(/[^A-Z]/g, "").slice(0, WORD_LENGTH);
+    setCurrent(letters);
+  };
+
+  const handleInputKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      submitGuess();
+    }
+  };
+
+  // Tapping anywhere on the card focuses the hidden input, which is what
+  // triggers a phone's on-screen keyboard (a tap on the card itself, not on
+  // a tiny invisible target, is what makes this reliable on mobile).
+  const focusInput = () => {
+    if (status === "playing") inputRef.current?.focus();
+  };
 
   return (
-    <section className="wd" aria-label="Wordle">
+    <section className="wd" aria-label="Wordle" onClick={focusInput}>
       <h2 className="wd__label">Daily Wordle</h2>
       {/* <p className="wd__sub">Type on your keyboard · new word daily</p> */}
+
+      <input
+        ref={inputRef}
+        className="wd__input"
+        aria-label="Enter your guess"
+        value={current}
+        onChange={handleInputChange}
+        onKeyDown={handleInputKeyDown}
+        disabled={status !== "playing"}
+        type="text"
+        inputMode="text"
+        autoCapitalize="characters"
+        autoCorrect="off"
+        autoComplete="off"
+        spellCheck={false}
+        enterKeyHint="done"
+        maxLength={WORD_LENGTH}
+      />
 
       <div className="wd__board">
         {Array.from({ length: MAX_GUESSES }, (_, rowIndex) => {
