@@ -5,6 +5,7 @@ type AccordionItem = {
     id: string;
     title: string;
     position: string;
+    time: string;
     content: React.ReactNode;
 };
 
@@ -18,6 +19,7 @@ const items: AccordionItem[] = [
         id: "1",
         title: "Freelance",
         position: "Software Dev",
+        time: "May 2024 - Present",
         content:
             <ul>
                 <li><p>Architect, develop, and deploy bespoke web and mobile applications for international clients using <b style={{ color: 'var(--main)' }}>React, Node.js, and cloud
@@ -29,6 +31,7 @@ const items: AccordionItem[] = [
         id: "2",
         title: "Didact Digital",
         position: "Tech Lead",
+        time: "May 2024 - Present",
         content:
             <ul>
                 <li><p>Architected and launched the company website, resulting in an <b style={{ color: 'var(--main)' }}>increase in client inquiries</b> and establishing brand credibility in the
@@ -42,6 +45,7 @@ const items: AccordionItem[] = [
         id: "3",
         title: "Tololi",
         position: "Head of Technology",
+        time: "May 2024 - Present",
         content:
             <ul>
                 <li><p>Led a cross-functional team of four developers, delivering 5 major systems with a <b style={{ color: 'var(--main)' }}>100% on-time</b> project completion rate</p></li>
@@ -54,6 +58,7 @@ const items: AccordionItem[] = [
         id: "4",
         title: "Tololi",
         position: "Junior IT Manager",
+        time: "May 2024 - Present",
         content:
             <ul>
                 <li><p>Designed and developed a <b style={{ color: 'var(--main)' }}>Multi-Vendor E-commerce Marketplace</b> that onboarded 25+ local vendors in the first quarter</p></li>
@@ -66,6 +71,7 @@ const items: AccordionItem[] = [
         id: "5",
         title: "Akilli X",
         position: "Software Developer",
+        time: "May 2024 - Present",
         content:
             <ul>
                 <li><p>Delivered a responsive Mariental Municipality website used by <b style={{ color: 'var(--main)' }}>600+ citizens</b> monthly</p></li>
@@ -76,6 +82,7 @@ const items: AccordionItem[] = [
         id: "6",
         title: "Zion Graphics",
         position: "Front-End Web Developer",
+        time: "May 2024 - Present",
         content:
             <ul>
                 <li><p>Designed and developed and maintained the front-end for the company website</p></li>
@@ -88,6 +95,7 @@ const schoolItems: AccordionItem[] = [
         id: "1",
         title: "Namibia University of Science and Technology",
         position: "B.Sc. Computer Science Honours (Software Development)",
+        time: "May 2024 - Present",
         content:
             <div>
                 <p>Academic Achievements:</p>
