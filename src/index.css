@@ -65,11 +65,15 @@ a {
 
 .mode-toggle {
   background-color: var(--bg);
-  /* border: 1px solid var(--text); */
+  color: #fec418;
   border: 1px solid var(--main);
   border-radius: 8px;
-  padding: 8px;
+  padding: 6px;
   cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 300ms ease;
 }
 
 .shell {
