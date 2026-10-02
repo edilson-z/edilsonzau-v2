@@ -22,9 +22,9 @@ const items: AccordionItem[] = [
         time: "May 2024 - Present",
         content:
             <ul>
-                <li><p>Architect, develop, and deploy bespoke web and mobile applications for international clients using <b style={{ color: 'var(--main)' }}>React, Node.js, and cloud
+                <li><p>I architect, develop, and deploy bespoke web and mobile applications for international clients using <b style={{ color: 'var(--main)' }}>React, Node.js, and cloud
                     ecosystems</b></p></li>
-                <li><p>Manage <b style={{ color: 'var(--main)' }}>end-to-end</b> product lifecycles independently, leading client scoping, planning, testing, and continuous deployment</p></li>
+                <li><p>I manage <b style={{ color: 'var(--main)' }}>end-to-end</b> product lifecycles independently, leading client scoping, planning, testing, and continuous deployment</p></li>
             </ul>,
     },
     {
