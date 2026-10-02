@@ -1,6 +1,6 @@
 .wd {
     box-sizing: border-box;
-    width: 265px;
+    min-width: 245px;
     max-width: 100%;
     padding: 5px 0px 0px;
     border: 1px solid var(--text);
@@ -170,6 +170,12 @@
     .wd__row--shake,
     .wd__cell--flip {
         animation: none !important;
+    }
+}
+
+@media (width<=980px) {
+    .wd {
+        width: 265px;
     }
 }
 
