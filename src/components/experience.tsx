@@ -95,7 +95,7 @@ const schoolItems: AccordionItem[] = [
         id: "1",
         title: "Namibia University of Science and Technology",
         position: "B.Sc. Computer Science Honours (Software Development)",
-        time: "May 2024 - Present",
+        time: "Graduated 2025",
         content:
             <div>
                 <p>Academic Achievements:</p>
