@@ -85,7 +85,7 @@
 }
 
 .wd__cell--correct {
-    background: #7c9473;
+    background: #538d4e;
 }
 
 .wd__cell--present {
@@ -93,7 +93,7 @@
 }
 
 .wd__cell--absent {
-    background: #b9b1a5;
+    background: #787c7e;
 }
 
 .wd__cell--flip {
