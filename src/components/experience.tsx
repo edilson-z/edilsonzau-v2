@@ -31,7 +31,7 @@ const items: AccordionItem[] = [
         id: "2",
         title: "Didact Digital",
         position: "Tech Lead",
-        time: "May 2024 - Present",
+        time: "Jul 2023 - May 2024",
         content:
             <ul>
                 <li><p>Architected and launched the company website, resulting in an <b style={{ color: 'var(--main)' }}>increase in client inquiries</b> and establishing brand credibility in the
@@ -45,7 +45,7 @@ const items: AccordionItem[] = [
         id: "3",
         title: "Tololi",
         position: "Head of Technology",
-        time: "May 2024 - Present",
+        time: "Jul 2022 - Apr 2024",
         content:
             <ul>
                 <li><p>Led the development of an  <b style={{ color: 'var(--main)' }}>e-commerce platform</b> for the <b style={{ color: 'var(--main)' }}>United Nations World Food Programme</b>'s school feeding program, contributing to an 8-year strategic MOU between the organizations</p></li>
@@ -58,7 +58,7 @@ const items: AccordionItem[] = [
         id: "4",
         title: "Tololi",
         position: "Junior IT Manager",
-        time: "May 2024 - Present",
+        time: "Mar 2022 - Jul 2022",
         content:
             <ul>
                 <li><p>Designed and developed a <b style={{ color: 'var(--main)' }}>Multi-Vendor E-commerce Marketplace</b> that onboarded 25+ local vendors in the first quarter</p></li>
@@ -71,7 +71,7 @@ const items: AccordionItem[] = [
         id: "5",
         title: "Akilli X",
         position: "Software Developer",
-        time: "May 2024 - Present",
+        time: "Oct 2021 - Mar 2022",
         content:
             <ul>
                 <li><p>Delivered a responsive Mariental Municipality website used by <b style={{ color: 'var(--main)' }}>600+ citizens</b> monthly</p></li>
@@ -82,7 +82,7 @@ const items: AccordionItem[] = [
         id: "6",
         title: "Zion Graphics",
         position: "Front-End Web Developer",
-        time: "May 2024 - Present",
+        time: "Dec 2020 - Oct 2021",
         content:
             <ul>
                 <li><p>Designed and developed and maintained the front-end for the company website</p></li>
