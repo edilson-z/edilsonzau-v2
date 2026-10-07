@@ -37,7 +37,7 @@ export default function Sms() {
 
                 <h3>Data Collection Feature</h3>
                 <img src="/image7.webp" className="data-img" />
-                <p>The data collection feature works by running an SMS survey directly on the farmers phone. The diagram
+                <p>The data collection feature works by running an SMS survey directly on the farmer's phone. The diagram
                     shows the chatbot initiating a conversation with a farmer through their phone number.
                     This message prompts the user to participate in the SMS survey for data collection.</p>
 
