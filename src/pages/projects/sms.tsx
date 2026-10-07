@@ -42,10 +42,10 @@ export default function Sms() {
                     This message prompts the user to participate in the SMS survey for data collection.</p>
 
                 <img src="/image9.webp" className="data-img" />
-                <p>Once the client conscents to the survey a flusk session runs for data collection. The diagram
-                    illustrates the
-                    process of conducting an SMS-based survey with rural farmers, from the initial message to the
-                    storage of responses and generation of follow-up questions.</p>
+                <p>Once the client consents to the survey, a Flusk session runs for data collection.
+                    The diagram illustrates the process of conducting an SMS-based survey with rural farmers,
+                    from the initial message to the storage of responses and the generation of follow-up questions.
+                </p>
 
                 <h3>Information Sharing Feature</h3>
                 <img src="/image11.webp" className="data-img" />
