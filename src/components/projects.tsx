@@ -58,7 +58,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </Link>
-                <Link to="/projects/sms#iii" style={{ all: 'unset', cursor: 'pointer' }}>
+                <Link to="/projects/finance#v" style={{ all: 'unset', cursor: 'pointer' }}>
                     <div className="project-card">
                         <img src='./finance-2.png' />
                         <div className='project-card-container'>
