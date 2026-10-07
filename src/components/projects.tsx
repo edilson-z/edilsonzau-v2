@@ -42,25 +42,6 @@ export default function Projects() {
                         </div>
                     </div>
                 </Link>
-                <Link to="/projects/sms#iii" style={{ all: 'unset', cursor: 'pointer' }}>
-                    <div className="project-card">
-                        <img src='./last.png' />
-                        <div className='project-card-container'>
-                            <h3>SMS Chatbot For Data Collection</h3>
-                            <p>An offline-capable SMS chatbot that enables rural farmers to report crop yields, pest outbreaks, and market trends using feature phones.</p>
-                            <span className="project-tag">Python</span>
-                            <span className="project-tag">Flask</span>
-                            <span className="project-tag">OpenAI</span>
-                            <span className="project-tag">Twillio</span>
-                            <span className="project-tag">MongoDB</span>
-                            <span className="project-tag">NumPy</span>
-                            <span className="project-tag">Pandas</span>
-                            <span className="project-tag">Jupyter</span>
-                            <span className="project-tag">Git</span>
-                            <span className="project-tag">NGROK</span>
-                        </div>
-                    </div>
-                </Link>
                 <Link to="/projects/jade#iv" style={{ all: 'unset', cursor: 'pointer' }}>
                     <div className="project-card">
                         <img src='./jade-3.png' />
@@ -74,6 +55,23 @@ export default function Projects() {
                             <span className="project-tag">JSON</span>
                             <span className="project-tag">GIT</span>
                             <span className="project-tag">Vercel</span>
+                        </div>
+                    </div>
+                </Link>
+                <Link to="/projects/finance#v" style={{ all: 'unset', cursor: 'pointer' }}>
+                    <div className="project-card">
+                        <img src='./finance-2.png' />
+                        <div className='project-card-container'>
+                            <h3>Automated Personal Finance Tracker</h3>
+                            <p>An AI powered mobile app for tracking personal finances, allowing users to scan receipts for automated expense tracking and budgeting.</p>
+                            <span className="project-tag">Dart</span>
+                            <span className="project-tag">Flutter</span>
+                            <span className="project-tag">PostgreSQL</span>
+                            <span className="project-tag">Supabase</span>
+                            <span className="project-tag">Python</span>
+                            <span className="project-tag">Flask</span>
+                            <span className="project-tag">OpenAI</span>
+                            <span className="project-tag">NGROK</span>
                         </div>
                     </div>
                 </Link>
