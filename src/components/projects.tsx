@@ -8,7 +8,7 @@ export default function Projects() {
             <div className="project-cards">
                 <Link to="/projects/hydro#ii" style={{ all: 'unset', cursor: 'pointer' }}>
                     <div className="project-card">
-                        <img src='./hydro.png' />
+                        <img src='./hydro.webp' />
                         <div className='project-card-container'>
                             <h3>Hydroponics AI & IoT Control Unit</h3>
                             <p>An AI and IoT-powered hydroponic control system using NFT and a Random Forest Classifier to monitor and optimise hydroponics variables in real time.</p>
@@ -25,7 +25,7 @@ export default function Projects() {
                 </Link>
                 <Link to="/projects/sms#iii" style={{ all: 'unset', cursor: 'pointer' }}>
                     <div className="project-card">
-                        <img src='./last.png' />
+                        <img src='./last.webp' />
                         <div className='project-card-container'>
                             <h3>SMS Chatbot For Data Collection</h3>
                             <p>An offline-capable SMS chatbot that enables rural farmers to report crop yields, pest outbreaks, and market trends using feature phones.</p>
@@ -44,7 +44,7 @@ export default function Projects() {
                 </Link>
                 <Link to="/projects/jade#iv" style={{ all: 'unset', cursor: 'pointer' }}>
                     <div className="project-card">
-                        <img src='./jade-3.png' />
+                        <img src='./jade-3.webp' />
                         <div className='project-card-container'>
                             <h3>Jade Garden Digital Menu</h3>
                             <p>A lightweight, mobile-first e-commerce platform that digitises in-dining ordering through table-specific QR codes.</p>
@@ -60,7 +60,7 @@ export default function Projects() {
                 </Link>
                 <Link to="/projects/finance#v" style={{ all: 'unset', cursor: 'pointer' }}>
                     <div className="project-card">
-                        <img src='./finance-2.png' />
+                        <img src='./finance-2.webp' />
                         <div className='project-card-container'>
                             <h3>Automated Personal Finance Tracker</h3>
                             <p>An AI powered mobile app for tracking personal finances, allowing users to scan receipts for automated expense tracking and budgeting.</p>
