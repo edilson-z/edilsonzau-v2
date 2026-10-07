@@ -63,7 +63,7 @@ export default function Projects() {
                         <img src='./finance-2.webp' />
                         <div className='project-card-container'>
                             <h3>Automated Personal Finance Tracker</h3>
-                            <p>An AI powered mobile app for tracking personal finances, allowing users to scan receipts for automated expense tracking and budgeting.</p>
+                            <p>An AI-powered mobile app for tracking personal finances, allowing users to scan receipts for automated expense tracking and budgeting.</p>
                             <span className="project-tag">Dart</span>
                             <span className="project-tag">Flutter</span>
                             <span className="project-tag">PostgreSQL</span>

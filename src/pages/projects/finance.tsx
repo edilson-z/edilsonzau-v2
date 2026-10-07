@@ -11,7 +11,7 @@ export default function Finance() {
                 <h2>Automated Personal Finance Tracker</h2>
                 <img src='/finance-2.png' className="data-img" />
 
-                <p>An AI powered mobile app for tracking personal finances, allowing users to scan receipts for automated expense tracking and budgeting.
+                <p>An AI-powered mobile app for tracking personal finances, allowing users to scan receipts for automated expense tracking and budgeting.
                     Currently in development.
                 </p>
 
