@@ -64,15 +64,13 @@ export default function Projects() {
                         <div className='project-card-container'>
                             <h3>Automated Personal Finance Tracker</h3>
                             <p>An AI powered mobile app for tracking personal finances, allowing users to scan receipts for automated expense tracking and budgeting.</p>
+                            <span className="project-tag">Dart</span>
+                            <span className="project-tag">Flutter</span>
+                            <span className="project-tag">PostgreSQL</span>
+                            <span className="project-tag">Supabase</span>
                             <span className="project-tag">Python</span>
                             <span className="project-tag">Flask</span>
                             <span className="project-tag">OpenAI</span>
-                            <span className="project-tag">Twillio</span>
-                            <span className="project-tag">MongoDB</span>
-                            <span className="project-tag">NumPy</span>
-                            <span className="project-tag">Pandas</span>
-                            <span className="project-tag">Jupyter</span>
-                            <span className="project-tag">Git</span>
                             <span className="project-tag">NGROK</span>
                         </div>
                     </div>
