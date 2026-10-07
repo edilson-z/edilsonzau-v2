@@ -11,24 +11,15 @@ export default function Sms() {
                 <h2>Agri SMS Chatbot</h2>
                 <img src="/last.png" className="data-img" />
 
-                <p>Namibia's agriculture sector is vital for food security and economic growth (60% rely on it for
-                    livelihood).
-                    Lack of data on critical aspects like crop yields, losses, and access to resources is a challenge.
-                    This hinders effective government support for Namibian farmers.
-                    Rural Namibian farmers struggle to access crucial information.
+                <p>Namibia's agriculture sector is vital for food security and economic growth (60% rely on it for their livelihood).
+                    The lack of data on critical aspects like crop yields, losses, and access to resources is a challenge.
+                    This hinders effective government support for Namibian farmers. Rural Namibian farmers struggle to access crucial information.
                     This information gap limits their decision-making, affecting production and income.
-                    This project offers a possibility to fill this gap for rural agricultural data collection and
-                    information sharing by providing a low-cost, offline-capable SMS chatbot engine that bridges the
-                    communication
-                    gap between
-                    rural smallholder farmers and institutional stakeholders. The system replaces paper-based field
-                    reporting
-                    with an automated data pipeline, allowing users on basic feature phones to submit multi-category
-                    reports
-                    on crop yields, pest outbreaks, and market trends. On the backend, it runs a high-volume SMS gateway
-                    architecture, a longitudinal farmer database, and an administrative dashboard featuring actionable
-                    data visualizations to help stakeholders optimize geographical reach and allocate aid resources
-                    efficiently.
+                    This project offers a possibility to fill this gap for rural agricultural data collection and information sharing by providing a low-cost,
+                    offline-capable SMS chatbot engine that bridges the communication gap between rural smallholder farmers and institutional stakeholders.
+                    The system replaces paper-based field reporting with an automated data pipeline, allowing users on basic feature phones to submit multi-category reports on crop yields,
+                    pest outbreaks, and market trends. On the backend, it runs an SMS gateway architecture, a longitudinal farmer database,
+                    and an administrative dashboard featuring actionable data visualisations to help stakeholders optimise geographical reach and allocate aid resources efficiently.
                 </p>
 
                 <h3>Features</h3>
